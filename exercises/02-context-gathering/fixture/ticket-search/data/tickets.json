@@ -1,0 +1,33 @@
+[
+  {
+    "id": "LAB-101",
+    "title": "Cannot access analytics workspace",
+    "description": "User is locked out after an SSO provider change.",
+    "notes": [
+      "Workspace owner confirmed SAML metadata was rotated.",
+      "Temporary bypass is not approved for production tenants."
+    ],
+    "tags": ["auth", "workspace"]
+  },
+  {
+    "id": "LAB-102",
+    "title": "Delayed refund for annual plan",
+    "description": "Customer reports that a refund has not posted after cancellation.",
+    "notes": [
+      "Billing team says the refund is inside the processor SLA window.",
+      "Follow up if the transfer is still pending after five business days."
+    ],
+    "tags": ["billing", "refund"]
+  },
+  {
+    "id": "LAB-103",
+    "title": "Webhook retries are noisy",
+    "description": "Integration owner wants fewer retry notifications during deploys.",
+    "notes": [
+      "Observed retry storm during staging deploy.",
+      "No customer-facing outage reported."
+    ],
+    "tags": ["integrations", "webhooks"]
+  }
+]
+

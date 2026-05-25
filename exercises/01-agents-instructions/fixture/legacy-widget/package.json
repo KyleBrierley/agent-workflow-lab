@@ -1,0 +1,10 @@
+{
+  "name": "legacy-widget-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/widget.test.js"
+  }
+}
+
