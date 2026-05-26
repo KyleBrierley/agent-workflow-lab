@@ -17,7 +17,7 @@
       "Billing team says the refund is inside the processor SLA window.",
       "Follow up if the transfer is still pending after five business days."
     ],
-    "tags": ["billing", "refund"]
+    "tags": ["billing", "refund", "sla"]
   },
   {
     "id": "LAB-103",

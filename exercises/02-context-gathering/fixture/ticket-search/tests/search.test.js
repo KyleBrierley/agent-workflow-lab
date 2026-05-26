@@ -12,6 +12,11 @@ assert.deepEqual(
 );
 
 assert.deepEqual(
+  listTickets("refund SLA").map((ticket) => ticket.id),
+  ["LAB-102"]
+);
+
+assert.deepEqual(
   listTickets("staging deploy").map((ticket) => ticket.id),
   []
 );
