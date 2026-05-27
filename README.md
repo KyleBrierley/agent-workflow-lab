@@ -28,6 +28,8 @@ For each exercise:
 | `03-security-approvals` | Risk review, secrets, and command safety | Ready |
 | `04-config-profiles` | User config, project config, profiles, and safety boundaries | Ready |
 | `05-slash-command-flow` | Session steering with slash commands | Ready |
+| `06-diff-commit-hygiene` | Diff review, staging discipline, and commit-ready summaries | Ready |
+| `07-delegation-worktrees` | Subagent/worktree delegation and evidence merging | Ready |
 
 See `docs/codex-skill-map.md` when choosing which skill to practice next.
 
@@ -44,6 +46,7 @@ Current JavaScript fixtures:
 
 - `exercises/01-agents-instructions/fixture/legacy-widget`
 - `exercises/02-context-gathering/fixture/ticket-search`
+- `exercises/06-diff-commit-hygiene/fixture/changelog-helper`
 
 Some exercises are review-only or documentation-oriented and do not have a test
 harness. For those, validate by checking the brief's "Done When" section, reading

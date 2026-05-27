@@ -62,3 +62,27 @@ Practice operating the conversation.
 - Redirecting Codex when the task changes.
 
 Start with: `exercises/05-slash-command-flow`
+
+## Diff and Commit Hygiene
+
+Practice finishing work with evidence instead of vibes.
+
+- Review `git status` before staging.
+- Inspect `git diff` before accepting the result.
+- Separate intended exercise changes from incidental scratch work.
+- Run the fixture-specific validation command.
+- Produce a commit-ready summary with exact files changed.
+
+Start with: `exercises/06-diff-commit-hygiene`
+
+## Delegation and Worktrees
+
+Practice deciding when Codex should split work across contexts.
+
+- Identify independent investigation tracks.
+- Decide what stays in the main thread.
+- Write a clear subagent or worktree handoff prompt.
+- Merge evidence before implementation.
+- Avoid claiming delegated work happened when it was only simulated.
+
+Start with: `exercises/07-delegation-worktrees`
