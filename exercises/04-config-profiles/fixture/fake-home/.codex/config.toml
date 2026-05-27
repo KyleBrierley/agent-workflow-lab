@@ -1,0 +1,13 @@
+# Fake user-level Codex config for Exercise 04.
+# This is intentionally too permissive for routine interview practice.
+
+model = "gpt-5.3-codex"
+reasoning_effort = "medium"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+
+[tools]
+web_search = true
+
+[workspace]
+default_root = "~/Documents/OpenAI Interview"

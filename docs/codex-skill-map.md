@@ -48,7 +48,7 @@ Practice reasoning about Codex execution settings.
 - Isolated `CODEX_HOME`.
 - Project-local guidance versus global preferences.
 
-Planned exercise: `exercises/04-config-profiles`
+Start with: `exercises/04-config-profiles`
 
 ## Session Steering
 
@@ -61,5 +61,4 @@ Practice operating the conversation.
 - `/agent`
 - Redirecting Codex when the task changes.
 
-Planned exercise: `exercises/05-slash-command-flow`
-
+Start with: `exercises/05-slash-command-flow`

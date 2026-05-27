@@ -1,0 +1,9 @@
+# Fake named profile for careful review sessions.
+
+model = "gpt-5.3-codex"
+reasoning_effort = "high"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[tools]
+web_search = true

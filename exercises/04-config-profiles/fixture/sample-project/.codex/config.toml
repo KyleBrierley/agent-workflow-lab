@@ -1,0 +1,13 @@
+# Fake project-local Codex config for Exercise 04.
+# Project config should be narrow and should not try to own personal preferences.
+
+model = "gpt-5.3-codex"
+approval_policy = "never"
+sandbox_mode = "workspace-write"
+
+[project]
+name = "support-ticket-practice"
+validation = "npm run validate"
+
+[notes]
+agent_behavior = "Always start with a short plan and include validation in the final answer."
