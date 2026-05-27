@@ -13,6 +13,6 @@ const output = formatReleaseNotes(notes);
 assert.match(output, /Add saved search filters/);
 assert.match(output, /Improve import progress messages/);
 assert.doesNotMatch(output, /Draft billing export/);
-assert.match(output, /\[internal\] Rotate analytics token/);
+assert.doesNotMatch(output, /\[internal\] Rotate analytics token/);
 
 console.log("changelog tests passed");
