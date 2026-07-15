@@ -1,4 +1,4 @@
-# Exercise 08 Draft: Timed Mock Interview Run
+# Exercise 08 Draft: Timed Change Run
 
 ## Status
 
@@ -6,9 +6,9 @@ Draft idea only. Do not treat this as a ready exercise until it has a fixture an
 
 ## Goal
 
-Practice a realistic 25-minute interview walkthrough where the operator narrates how they would understand, modify, validate, and safely ship a change with Codex.
+Practice a realistic 25-minute change workflow where the operator narrates how they would understand, modify, validate, and safely prepare a change with Codex.
 
-## Interview Skill
+## Workflow Skill
 
 This drill is less about one code fix and more about showing judgment under time pressure:
 
@@ -17,13 +17,13 @@ This drill is less about one code fix and more about showing judgment under time
 - Keep the change small and tied to the stated request.
 - Explain safety boundaries before risky commands or broad access.
 - Validate the behavior and review the diff before calling the task complete.
-- Summarize the result in interview-ready language.
+- Summarize the result in concise, handoff-ready language.
 
 ## Scenario Sketch
 
 A teammate reports that a customer-facing support tool is returning confusing results for one query. You have a small fixture, a failing expectation, and 25 minutes to work with Codex.
 
-The interviewer wants to hear your reasoning as much as the final fix. You should narrate:
+The exercise evaluates the reasoning as much as the final fix. The operator should narrate:
 
 - What you ask Codex to inspect first.
 - What assumptions you are making.
@@ -35,7 +35,7 @@ The interviewer wants to hear your reasoning as much as the final fix. You shoul
 ## Candidate Prompt
 
 ```text
-We are doing a timed mock interview drill. Inspect the exercise brief and fixture first, then give me a short plan before editing. As you work, keep the scope tight, explain what evidence you found, run the fixture validation, and review the final diff before summarizing the result.
+We are doing a timed change drill. Inspect the exercise brief and fixture first, then give me a short plan before editing. As you work, keep the scope tight, explain what evidence you found, run the fixture validation, and review the final diff before summarizing the result.
 ```
 
 ## Draft Flow
@@ -44,7 +44,7 @@ We are doing a timed mock interview drill. Inspect the exercise brief and fixtur
 2. Five minutes: propose a plan and confirm the smallest edit surface.
 3. Ten minutes: implement the fix and add or update a regression test.
 4. Three minutes: run validation and review the diff.
-5. Two minutes: give a crisp interview-style debrief.
+5. Two minutes: give a crisp engineering handoff.
 
 ## Possible Fixture Ideas
 
@@ -59,10 +59,10 @@ We are doing a timed mock interview drill. Inspect the exercise brief and fixtur
 - The operator asked for and approved a short plan.
 - Validation passed from the fixture directory.
 - The final diff was reviewed before the summary.
-- The final answer included what changed, what validation ran, what risk remains, and how the operator would explain the work to an interviewer.
+- The final answer included what changed, what validation ran, what risk remains, and how the operator would hand the work to another engineer.
 
 ## Open Design Questions
 
-- Should this reuse a support-ticket-style fixture or stay fully inside `codex-practice-lab`?
+- Should this reuse a support-ticket-style fixture or stay fully inside `agent-workflow-lab`?
 - Should the time limit be strict, or should the debrief reward pausing when scope is unclear?
-- Should the mock include an intentional distraction, such as an unrelated dirty file, to combine Exercise 06 skills with the interview narration?
+- Should the run include an intentional distraction, such as an unrelated dirty file, to combine Exercise 06 skills with the handoff narration?

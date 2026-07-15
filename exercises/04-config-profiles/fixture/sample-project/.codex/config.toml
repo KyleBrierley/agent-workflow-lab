@@ -6,7 +6,7 @@ approval_policy = "never"
 sandbox_mode = "workspace-write"
 
 [project]
-name = "support-ticket-practice"
+name = "support-operations-workbench"
 validation = "npm run validate"
 
 [notes]

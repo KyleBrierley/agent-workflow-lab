@@ -1,8 +1,8 @@
-# Codex Practice Lab Instructions
+# Agent Workflow Lab Instructions
 
 ## Purpose
 
-This repository is for practicing Codex operations. Optimize for clear reasoning, safe edits, and explicit validation. Do not turn exercises into large app builds unless the exercise brief asks for it.
+This repository contains focused exercises for developing reliable AI coding-agent workflows. Optimize for clear reasoning, safe edits, and explicit validation. Do not turn exercises into large app builds unless the exercise brief asks for it.
 
 ## Working Style
 
@@ -33,6 +33,5 @@ When finishing an exercise, include:
 
 - What changed.
 - What validation ran.
-- What Codex behavior was practiced.
+- What agent behavior or operating pattern was exercised.
 - One thing to improve in the next attempt.
-
