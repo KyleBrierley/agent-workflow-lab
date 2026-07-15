@@ -1,0 +1,38 @@
+name: Fixture tests
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: ${{ matrix.fixture }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - fixture: Legacy widget
+            directory: exercises/01-agents-instructions/fixture/legacy-widget
+          - fixture: Ticket search
+            directory: exercises/02-context-gathering/fixture/ticket-search
+          - fixture: Changelog helper
+            directory: exercises/06-diff-commit-hygiene/fixture/changelog-helper
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run fixture tests
+        working-directory: ${{ matrix.directory }}
+        run: npm test

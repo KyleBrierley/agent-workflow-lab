@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This fake project represents a small interview-practice repo. Keep changes scoped, explain assumptions, and validate the behavior you touch.
+This fake project represents a small team repository. Keep changes scoped, explain assumptions, and validate the behavior you touch.
 
 ## Workflow
 

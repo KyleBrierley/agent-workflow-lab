@@ -1,22 +1,23 @@
-# Codex Practice Lab
+# Agent Workflow Lab
 
-This repo is a small operations gym for practicing Codex itself. The goal is not to build one large app. The goal is to rehearse the workflows that make Codex useful in a real engineering interview or work session: orienting in a repo, writing good instructions, planning before edits, handling risky commands, checking diffs, and validating results.
+This repository is a hands-on lab for building reliable AI coding-agent workflows. It is a collection of focused exercises and small fixtures rather than one large application. Each exercise isolates an operating pattern that transfers to real engineering work: repository orientation, durable instructions, scoped planning, approval and safety judgment, delegated investigation, diff review, and evidence-backed validation.
 
-This lab is intentionally separate from `support-ticket-practice`. Use this repo
-for practicing Codex behavior: instruction writing, context gathering, safety
-judgment, config reasoning, and session steering. Use the app repo for realistic
-feature and bug-fix drills.
+The lab is intentionally separate from `support-operations-workbench`. Use this
+repository to study and rehearse agent behavior such as instruction writing,
+context gathering, safety judgment, configuration reasoning, and session
+steering. Use the companion application for realistic feature and bug-fix
+scenarios in a full-stack codebase.
 
-## How to Practice
+## How to Use the Lab
 
 For each exercise:
 
 1. Open the exercise `brief.md`.
 2. Start a new Codex thread from this repo.
-3. Give Codex the task from the brief.
-4. Make Codex inspect the fixture before editing.
+3. Give your coding agent the task from the brief.
+4. Ask the agent to inspect the fixture before editing.
 5. Ask for a short plan when the task is ambiguous.
-6. Let Codex implement only after the plan is clear.
+6. Let the agent implement only after the plan is clear.
 7. Review the diff, run the listed checks, and write a short debrief.
 
 ## Exercises

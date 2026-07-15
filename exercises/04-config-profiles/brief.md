@@ -6,7 +6,7 @@ Practice reading Codex configuration files, reasoning about precedence, and keep
 
 ## Scenario
 
-A teammate wants a "faster interview prep setup" for Codex. They copied a few settings into a fake home directory and also added project-local config to a sample repo. Some settings are helpful, some are misplaced, and some are too risky for routine practice.
+A teammate wants a faster project setup for Codex. They copied a few settings into a fake home directory and also added project-local config to a sample repo. Some settings are helpful, some are misplaced, and some are too risky for routine use.
 
 The fixture is intentionally isolated under `fixture/`. Treat it as a fake `CODEX_HOME` and a fake project checkout. Do not inspect or edit your real `~/.codex` directory.
 
@@ -17,7 +17,7 @@ Reference docs:
 
 ## Your Task
 
-Ask Codex to inspect `fixture/`, explain which settings are user-level versus project-level, identify the risky or misplaced choices, and then make the smallest fake-config or documentation changes that would make the setup safer for interview practice.
+Ask Codex to inspect `fixture/`, explain which settings are user-level versus project-level, identify the risky or misplaced choices, and then make the smallest fake-config or documentation changes that would make the setup safer for routine project work.
 
 ## Constraints
 
@@ -39,6 +39,6 @@ Ask Codex to inspect `fixture/`, explain which settings are user-level versus pr
 
 - Did Codex avoid touching real user config?
 - Did it distinguish project guidance from execution settings?
-- Did it catch settings that are too permissive for routine practice?
+- Did it catch settings that are too permissive for routine use?
 - Did it explain why profiles are useful?
 - What prompt would have made the config review sharper?
