@@ -8,6 +8,24 @@ context gathering, safety judgment, configuration reasoning, and session
 steering. Use the companion application for realistic feature and bug-fix
 scenarios in a full-stack codebase.
 
+## Exercise-Run-Review Loop
+
+```mermaid
+flowchart LR
+    A["Exercise brief<br/>goal, constraints, done criteria"] --> B["Orient<br/>instructions, fixture, current behavior"]
+    B --> C["Plan<br/>scope, safety, validation"]
+    C --> D["Execute<br/>small edit or review"]
+    D --> E["Validate<br/>tests and acceptance criteria"]
+    E --> F["Review<br/>diff, risks, stray changes"]
+    F --> G["Debrief<br/>evidence, steering, next improvement"]
+    G -. "repeat with a sharper workflow" .-> A
+```
+
+The artifact is not only the resulting code. Each run should leave a reviewable
+chain from task definition through validation and reflection. See
+[`docs/example-debriefs.md`](docs/example-debriefs.md) for two short,
+illustrative examples of what that evidence can look like.
+
 ## How to Use the Lab
 
 For each exercise:
